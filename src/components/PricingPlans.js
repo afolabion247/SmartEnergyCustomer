@@ -2,10 +2,10 @@
 import React from 'react';
 
 const plans = [
-  { name: 'Free', price: 0, features: ['Basic monitoring'], id: 'price_free_id' },
-  { name: 'Standard', price: 9.99, features: ['Monitoring', 'Analytics'], id: 'price_standard_id' },
-  { name: 'Premium', price: 19.99, features: ['Smart scheduling', 'Energy coach'], id: 'price_premium_id' },
-  { name: 'Pro', price: 49.99, features: ['Multi-home', 'Solar optimization'], id: 'price_pro_id' },
+  { name: 'Free', price: 0, features: ['Basic monitoring'], id: 'prod_Sf0F86hzrTBqYS' },
+  { name: 'Standard', price: 9.99, features: ['Monitoring', 'Analytics'], id: 'prod_Sf0JlayGiGc4tB' },
+  { name: 'Premium', price: 19.99, features: ['Smart scheduling', 'Energy coach'], id: 'prod_Sf0PwsiBKNHTmB' },
+  { name: 'Pro', price: 49.99, features: ['Multi-home', 'Solar optimization'], id: 'price_pprod_Sf0PwsiBKNHTmBro_id' },
 ];
 
 const PricingPlans = () => {
