@@ -6,7 +6,7 @@ import PricingPlans from './components/PricingPlans';
 import AppPreview from './components/AppPreview';
 import FAQs from './components/FAQs';
 import Footer from './components/Footer';
-
+import './server/index.css';
 function App() {
   return (
     <div className="bg-white text-gray-800">
