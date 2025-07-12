@@ -1,10 +1,11 @@
 
-const express = require('express');
-const Stripe = require('stripe');
-const cors = require('cors');
+import express from 'express';
+import Stripe from 'stripe';
+import cors from 'cors';
+
 const app = express();
 const stripe = Stripe('sk_test_51Rc9052UXiuJnTqdvAzSekXjATshU9GZdWPlGacqjVPOr8I0k1tOv9SicXqRyRXDjzhQ2POONjCswLbc9X0Uzk3m00bLsa5g2I');
-import './index.css';
+
 app.use(cors());
 app.use(express.json());
 
